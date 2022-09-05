@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: hexler-test
+title: Hexler-index
 subtitle: ''
-description: ''
-keywords:
-author: Hexler17
+description: 'hexler的目录'
+keywords: Hexler, hexler
+author: Hexler
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -103,3 +103,40 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 1000
+
+# SiteMap
+sitemap:
+  path: sitemap.xml
+
+# RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20 # Maximum number of posts in the feed (Use 0 or false to show all posts)
+  hub:
+  content:
+
+# Darkmode JS
+# For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js
+darkmode_js:
+  enable: true
+  bottom: '64px' # default: '32px'
+  right: 'unset' # default: '32px'
+  left: '32px' # default: 'unset'
+  time: '0.5s' # default: '0.3s'
+  mixColor: 'transparent' # default: '#fff'
+  backgroundColor: 'transparent' # default: '#fff'
+  buttonColorDark: '#100f2c' # default: '#100f2c'
+  buttonColorLight: '#fff' # default: '#fff'
+  isActivated: false # default false
+  saveInCookies: true # default: true
+  label: '🌓' # default: ''
+  autoMatchOsTheme: true # default: true
+  libUrl: # Set custom library cdn url for Darkmode.js
