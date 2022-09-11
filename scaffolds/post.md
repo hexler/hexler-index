@@ -1,5 +1,7 @@
 ---
 title: {{ title }}
+etoc: true 
 date: {{ date }}
-tags:
+tags: 
+categories: 
 ---
