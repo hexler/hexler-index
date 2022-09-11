@@ -12,5 +12,6 @@ comments: false
 内核、云计算虚拟化
 
 # 联系方式
-email: mycomplexlove@qq.com
+微信：hexler
+邮箱: mycomplexlove@qq.com
 
