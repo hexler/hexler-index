@@ -263,7 +263,7 @@ reward_settings:
   # If true, reward will be displayed in every article by default.
   enable: true
   animation: true
-  comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+  comment: 如果对你有帮助或启发的话，下方可以用金钱对我进行支持。
 
 reward:
   wechatpay: /images/wechatpay.png
